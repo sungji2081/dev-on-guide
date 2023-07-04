@@ -11,4 +11,4 @@ async def on_message(message): #함수: 누군가 메시지를 입력했다면?
     if message.content == "안녕": #만약 메시지의 내용이 "안녕"이라면?
         await message.channel.send("안녕!") #해당 채널에 "안녕!"을 출력
 
-client.run('paste your token!') #디스코드봇 작동시키기 (작은따옴표 안에 복사해놓았던 토큰 붙여넣기!)
+client.run('paste your token!') #디스코드봇 작동시키기 (작은따옴표 안에 복사해놓았던 토큰 붙여넣기)
