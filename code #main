@@ -1,14 +1,14 @@
-import discord #discord 모듈 불러오기
+import discord    #discord 모듈 불러오기
 
-client = discord.Client(intents=discord.Intents.all()) #client 설정하기(몰라도 됨)
+client = discord.Client(intents=discord.Intents.all())    #client 설정하기(몰라도 됨)
 
-@client.event #데코레이터(몰라도 됨)
-async def on_ready(): #함수: 준비가 되었다면?
-    print('Ready!') #terminal에 'Ready!'를 출력
+@client.event    #데코레이터(몰라도 됨)
+async def on_ready():    #함수: 준비가 되었다면?
+    print('Ready!')    #terminal에 'Ready!'를 출력
 
 @client.event
-async def on_message(message): #함수: 누군가 메시지를 입력했다면?
-    if message.content == "안녕": #만약 메시지의 내용이 "안녕"이라면?
-        await message.channel.send("안녕!") #해당 채널에 "안녕!"을 출력
+async def on_message(message):    #함수: 누군가 메시지를 입력했다면?
+    if message.content == "안녕":    #만약 메시지의 내용이 "안녕"이라면?
+        await message.channel.send("안녕!")    #해당 채널에 "안녕!"을 출력
 
-client.run('paste your token!') #디스코드봇 작동시키기 (작은따옴표 안에 복사해놓았던 토큰 붙여넣기)
+client.run('paste your token!')    #디스코드봇 작동시키기 (작은따옴표 안에 복사해놓았던 토큰 붙여넣기)
