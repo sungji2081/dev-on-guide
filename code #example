@@ -1,0 +1,16 @@
+number = 12345
+
+float = 123.45
+
+string = "Dev On"
+
+lst = ['Dev On', 1, 2, 3]
+
+tuple = ('Dev On', 1, 2, 3)
+
+dict = {'name': "Dev On", 'number' : 2023}
+
+boolean_t = True
+boolean_f = False
+
+set = set(1, 2, 3, 4)
